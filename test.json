@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "palette": {
+    "white": "#FFFFFF",
+    "pos1": "#3a1c54",
+    "pos2": "#553079",
+    "pos3": "#724699",
+    "pos4": "#9362bc",
+    "pos5": "#bb8ae1"
+  },
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "background": "p:pos1",
+          "foreground": "p:white",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+		  "type": "text",
+		  "template": "{{ if .Root }}\uf0e7{{ else }}\ued99{{ end }} "
+        },
+        {
+          "background": "p:pos2",
+          "foreground": "p:white",
+          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
+		  "template": " {{ .UserName }} ",
+          "type": "session"
+        },
+        {
+          "background": "p:pos3",
+          "foreground": "p:white",
+          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
+          "template": " {{ .HostName }} ",
+		  "type": "session"
+        },
+        {
+          "background": "p:pos4",
+          "foreground": "p:white",
+          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
+          "template": " {{ .AbsolutePWD }} ",
+          "type": "path"
+        },
+        {
+          "background": "p:pos5",
+          "foreground": "p:white",
+          "properties": {
+            "time_format": "15:04"
+          },
+          "style": "diamond",
+          "template": " \uf017 {{ .CurrentDate | date .Format }} ",
+          "trailing_diamond": "\ue0b0",
+          "type": "time"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "version": 3
+}
