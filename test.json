@@ -18,9 +18,9 @@
           "leading_diamond": "\ue0b6",
           "style": "diamond",
           "properties": {
-              "windows": "\uf05b3"
+              "windows": "\ue62a"
             },
-          "template": "{{.Icon}}",
+          "template": "{{.Icon}} ",
           "type": "os"
         },
         {
