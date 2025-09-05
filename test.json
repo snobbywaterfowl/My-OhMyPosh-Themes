@@ -17,8 +17,11 @@
           "foreground": "p:white",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
-		  "type": "text",
-		  "template": "{{ if .Root }}\uf0e7{{ else }}\ued99{{ end }} "
+          "properties": {
+              "windows": "\uf17a"
+            },
+          "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}} ",
+          "type": "os"
         },
         {
           "background": "p:pos2",
@@ -60,5 +63,5 @@
     }
   ],
   "final_space": true,
-  "version": 3
+  "version": 2
 }
