@@ -20,7 +20,7 @@
           "properties": {
               "windows": "\uf17a"
             },
-          "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}}",
+          "template": "{{.Icon}}",
           "type": "os"
         },
         {
