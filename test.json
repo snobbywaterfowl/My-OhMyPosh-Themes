@@ -93,6 +93,13 @@
               "charging_icon": " ",
               "charged_icon": " "
             }
+          },
+          {
+            "type": "connection",
+            "style": "powerline",
+            "background": "#8822ee",
+            "foreground": "#222222",
+            "powerline_symbol": ""
           }
       ]
     }
