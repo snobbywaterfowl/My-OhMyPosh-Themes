@@ -68,7 +68,8 @@
       "segments": [
         {
           "type": "sysinfo",
-          "foreground": "#ffffff",
+          "leading_diamond": "\ue0b6",
+          "foreground": "p:white",
           "background": "#8f43f3",
           "template": "  {{ round .PhysicalPercentUsed .Precision }}% ",
           "properties": {
@@ -80,7 +81,7 @@
             "type": "battery",
             "style": "powerline",
             "powerline_symbol": "",
-            "foreground": "#193549",
+            "foreground": "p:white",
             "background": "#ffeb3b",
             "background_templates": [
               "{{if eq \"Charging\" .State.String}}#40c4ff{{end}}",
@@ -98,7 +99,7 @@
             "type": "connection",
             "style": "powerline",
             "background": "#8822ee",
-            "foreground": "#222222",
+            "foreground": "p:white",
             "powerline_symbol": ""
           }
       ]
