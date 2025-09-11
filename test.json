@@ -11,6 +11,7 @@
   "blocks": [
     {
       "alignment": "left",
+      "type":"prompt",
       "segments": [
         {
           "background": "p:pos1",
@@ -59,7 +60,24 @@
           "type": "time"
         }
       ],
-      "type": "prompt"
+    }
+    {
+      "type": "rprompt",
+      "alignment": "right",
+      "overflow":"hide",
+      "segments": [
+        {
+          "type": "sysinfo",
+          "powerline_symbol": "",
+          "foreground": "#ffffff",
+          "background": "#8f43f3",
+          "template": "  {{ round .PhysicalPercentUsed .Precision }}% ",
+          "properties": {
+            "precision": 2
+          },
+          "style": "powerline"
+        }
+      ]
     }
   ],
   "final_space": true,
