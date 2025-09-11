@@ -100,7 +100,8 @@
             "style": "powerline",
             "background": "#8822ee",
             "foreground": "p:white",
-            "powerline_symbol": ""
+            "powerline_symbol": "",
+            "template":"{{ if eq .Type \"wifi\"}}\uf1eb{{ else if eq .Type \"ethernet\"}}\udb80\ude01{{ else if eq .Type \"bluetooth\"}}\uf293{{ else if eq .Type \"cellular\"}}\udb80\udd1c{{ else }}\uea76{{ end }}"
           }
       ]
     }
