@@ -69,13 +69,13 @@
         {
           "type": "sysinfo",
           "leading_diamond": "\ue0b6",
+          "style": "diamond",
           "foreground": "p:white",
           "background": "#8f43f3",
           "template": "  {{ round .PhysicalPercentUsed .Precision }}% ",
           "properties": {
             "precision": 2
-          },
-          "style": "powerline"
+          }
         },
         {
             "type": "battery",
@@ -101,7 +101,7 @@
             "background": "#8822ee",
             "foreground": "p:white",
             "powerline_symbol": "",
-            "template":"{{ if eq .Type \"wifi\"}}\uf1eb{{ else if eq .Type \"ethernet\"}}\udb80\ude01{{ else if eq .Type \"bluetooth\"}}\uf293{{ else if eq .Type \"cellular\"}}\udb80\udd1c{{ else }}\uea76{{ end }}"
+            "template":"{{ if eq .Type \"wifi\"}}\uf1eb{{ else if eq .Type \"ethernet\"}}\udb80\ude00{{ else if eq .Type \"bluetooth\"}}\uf293{{ else if eq .Type \"cellular\"}}\udb80\udd1c{{ else }}\uea76{{ end }}"
           }
       ]
     }
