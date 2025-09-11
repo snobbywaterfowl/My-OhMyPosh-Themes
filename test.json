@@ -11,7 +11,6 @@
   "blocks": [
     {
       "alignment": "left",
-      "type":"prompt",
       "segments": [
         {
           "background": "p:pos1",
@@ -59,7 +58,8 @@
           "trailing_diamond": "\ue0b0",
           "type": "time"
         }
-      ]
+      ],
+      "type":"prompt"
     },
     {
       "type": "rprompt",
@@ -80,5 +80,5 @@
     }
   ],
   "final_space": true,
-  "version": 2
+  "version": 3
 }
