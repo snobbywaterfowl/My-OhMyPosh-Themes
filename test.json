@@ -59,8 +59,8 @@
           "trailing_diamond": "\ue0b0",
           "type": "time"
         }
-      ],
-    }
+      ]
+    },
     {
       "type": "rprompt",
       "alignment": "right",
@@ -68,7 +68,6 @@
       "segments": [
         {
           "type": "sysinfo",
-          "powerline_symbol": "",
           "foreground": "#ffffff",
           "background": "#8f43f3",
           "template": "  {{ round .PhysicalPercentUsed .Precision }}% ",
