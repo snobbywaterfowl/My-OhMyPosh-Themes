@@ -70,7 +70,6 @@
         {
           "type": "sysinfo",
           "style": "powerline",
-          "powerline_symbol": "\ue0b0",
           "foreground": "p:white",
           "background": "p:pos4",
           "template": "  {{ round .PhysicalPercentUsed .Precision }}% ",
@@ -80,10 +79,9 @@
         },
         {
           "type": "connection",
-          "style": "powerline",
           "background": "p:pos3",
           "foreground": "p:white",
-          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
           "template":" {{ if eq .Type \"wifi\"}}\uf1eb{{ else if eq .Type \"ethernet\"}}\udb80\ude00{{ else if eq .Type \"bluetooth\"}}\uf293{{ else if eq .Type \"cellular\"}}\udb80\udd1c{{ else }}\uea76{{ end }} "
         },
         {
