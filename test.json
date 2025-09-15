@@ -69,7 +69,8 @@
         },
         {
           "type": "sysinfo",
-          "style": "diamond",
+          "style": "powerline",
+          "powerline_symbol": "",
           "foreground": "p:white",
           "background": "p:pos4",
           "template": "  {{ round .PhysicalPercentUsed .Precision }}% ",
@@ -87,7 +88,7 @@
         },
         {
           "type": "battery",
-          "style": "powerline",
+          "style": "diamond",
           "leading_diamond": "",
           "trailing_diamond": "\ue0b4",
           "foreground": "p:white",
