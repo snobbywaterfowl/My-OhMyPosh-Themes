@@ -101,14 +101,7 @@
             "background": "#8822ee",
             "foreground": "p:white",
             "powerline_symbol": "",
-            "properties":{
-               "wifi_icon": "\uf1eb",
-               "ethernet_icon": "\udb80\ude00",
-               "bluetooth_icon": "\uf293",
-               "cellular_icon": "udb80\udd1c",
-               "disconnected_icon": "\uea76"
-            },
-            "template":" {{ if not .Error }}{{ .Icon }}{{ end }} "
+            "template":" {{ if eq .Type \"wifi\"}}\uf1eb{{ else if eq .Type \"ethernet\"}}\udb80\ude00{{ else if eq .Type \"bluetooth\"}}\uf293{{ else if eq .Type \"cellular\"}}\udb80\udd1c{{ else }}\uea76{{ end }}  "
           }
       ]
     }
