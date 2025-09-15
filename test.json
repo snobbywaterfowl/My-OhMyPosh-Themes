@@ -89,7 +89,7 @@
           "type": "battery",
           "style": "powerline",
           "leading_diamond": "",
-          "trailing_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b4",
           "foreground": "p:white",
           "background": "#ffeb3b",
           "background_templates": [
