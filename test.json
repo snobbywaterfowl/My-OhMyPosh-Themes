@@ -59,7 +59,7 @@
           "background": "p:pos5",
           "foreground": "p:white",
           "leading_diamond": "\ue0b6",
-          "powerline_symbol": "",
+          "trailing_diamond": "",
           "properties": {
             "time_format": "15:04"
           },
@@ -88,7 +88,7 @@
         {
           "type": "battery",
           "style": "powerline",
-          "powerline_symbol": "",
+          "leading_diamond": "",
           "trailing_diamond": "\ue0b6",
           "foreground": "p:white",
           "background": "#ffeb3b",
