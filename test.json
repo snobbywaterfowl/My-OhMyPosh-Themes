@@ -64,7 +64,7 @@
             "time_format": "15:04"
           },
           "style": "diamond",
-          "template": " \uf017 {{ .CurrentDate | date .Format }} ",
+          "template": "\uf017 {{ .CurrentDate | date .Format }} ",
           "type": "time"
         },
         {
@@ -83,7 +83,7 @@
           "background": "p:pos3",
           "foreground": "p:white",
           "powerline_symbol": "",
-          "template":" {{ if eq .Type \"wifi\"}}\uf1eb{{ else if eq .Type \"ethernet\"}}\udb80\ude00{{ else if eq .Type \"bluetooth\"}}\uf293{{ else if eq .Type \"cellular\"}}\udb80\udd1c{{ else }}\uea76{{ end }}  "
+          "template":" {{ if eq .Type \"wifi\"}}\uf1eb{{ else if eq .Type \"ethernet\"}}\udb80\ude00{{ else if eq .Type \"bluetooth\"}}\uf293{{ else if eq .Type \"cellular\"}}\udb80\udd1c{{ else }}\uea76{{ end }} "
         },
         {
           "type": "battery",
