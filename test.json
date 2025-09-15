@@ -58,9 +58,8 @@
         {
           "background": "p:pos5",
           "foreground": "p:white",
-          "style": "diamond",
           "leading_diamond": "\ue0b6",
-          "trailing_diamond": "\ue0b0",
+          "style": "diamond",
           "properties": {
             "time_format": "15:04"
           },
@@ -89,7 +88,6 @@
         {
           "type": "battery",
           "style": "diamond",
-          "leading_diamond": "\ue0b0",
           "trailing_diamond": "\ue0b4",
           "foreground": "p:white",
           "background": "#ffeb3b",
